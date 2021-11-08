@@ -740,6 +740,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     ese-ls-provision \
     ese-replay \
+    libhidltransport.vendor \
+    libhwbinder.vendor \
     libjson \
     libsensorndkbridge:32 \
     libtinyxml
@@ -803,3 +805,8 @@ PRODUCT_PACKAGES += \
 
 include hardware/google/pixel/vibrator/drv2624/device.mk
 include hardware/google/pixel/mm/device_legacy.mk
+
+# Necessary System packages
+PRODUCT_PACKAGES += \
+    libhidltransport \
+    libhwbinder
