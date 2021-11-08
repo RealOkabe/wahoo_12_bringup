@@ -370,6 +370,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.bluetooth.emb_wp_mode=false \
     ro.vendor.bluetooth.wipower=false
 
+# Power.stats
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.0.vendor \
+    android.hardware.power.stats@1.0-service.pixel
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.2 \
