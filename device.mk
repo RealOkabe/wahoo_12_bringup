@@ -808,3 +808,7 @@ include hardware/google/pixel/mm/device_legacy.mk
 PRODUCT_PACKAGES += \
     libhidltransport \
     libhwbinder
+
+# Active Edge
+PRODUCT_PACKAGES += \
+    ElmyraService
